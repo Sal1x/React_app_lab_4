@@ -1,0 +1,57 @@
+.Navigation{
+    border: solid 2px lightseagreen;
+    margin: 20px 40px 40px;
+    background-image: linear-gradient(to bottom right, blue, yellow);
+    /*background-color: #888888;*/
+}
+
+a{
+    text-decoration: none;
+    color: lightseagreen;
+    font: 14pt sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom right, lightsteelblue, white);
+}
+
+a:active{
+    text-decoration: underline;
+    background-image: linear-gradient(to bottom right, white, lightsteelblue);
+}
+
+.home{
+    margin-left: 50px;
+    color: lightseagreen;
+    padding: 10px;
+    border-right: lightseagreen 2px solid;
+    border-left: lightseagreen 2px solid;
+}
+
+.points{
+    margin-right: 50px;
+    border-right: lightseagreen 2px solid;
+    padding: 10px;
+}
+
+.title{
+    display: inline;
+    text-align: right;
+    margin-right: 50px;
+    font: 14pt sans-serif;
+    float: right;
+    padding-top: 0;
+    margin-top: 0;
+    font-weight: bold;
+}
+#page {
+    text-align: left;
+    margin: 0 auto;
+    padding: 20px;
+    background: none repeat scroll 0% 0%;
+    background-color: rgb(251, 251, 248);
+    border: 1px solid lightblue;
+    border-radius: 15px;
+}
+
